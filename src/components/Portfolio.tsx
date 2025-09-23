@@ -40,7 +40,7 @@ const Portfolio = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in-up">
-            Nuestro <span className="gradient-primary bg-clip-text text-transparent">Portfolio</span>
+            Nuestro <span className="gradient-text">Portfolio</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up">
             Proyectos que demuestran nuestra pasión por la excelencia digital

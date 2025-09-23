@@ -29,7 +29,7 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in-up">
-            Nuestros <span className="gradient-primary bg-clip-text text-transparent">Servicios</span>
+            Nuestros <span className="gradient-text">Servicios</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up">
             Ofrecemos soluciones integrales para llevar tu negocio al siguiente nivel digital

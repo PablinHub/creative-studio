@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center z-10 relative">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 opacity-0 animate-fade-in-up">
           Creamos Experiencias
-          <span className="block gradient-primary bg-clip-text text-transparent">
+          <span className="block gradient-text">
             Digitales Únicas
           </span>
         </h1>

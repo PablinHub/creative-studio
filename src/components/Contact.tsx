@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in-up">
-            Hablemos de tu <span className="gradient-primary bg-clip-text text-transparent">Proyecto</span>
+            Hablemos de tu <span className="gradient-text">Proyecto</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up">
             ¿Tienes una idea increíble? Estamos aquí para hacerla realidad
