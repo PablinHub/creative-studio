@@ -5,28 +5,28 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const Contact = () => {
   return (
-    <section id="contacto" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in-up">
+    <section id="contacto" className="py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 opacity-0 animate-fade-in-up">
             Hablemos de tu <span className="gradient-text">Proyecto</span>
           </h2>
-          <p className="text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up">
+          <p className="text-base sm:text-lg lg:text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up px-4">
             ¿Tienes una idea increíble? Estamos aquí para hacerla realidad
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
           {/* Formulario de contacto */}
           <Card className="gradient-card border-border/50 opacity-0 animate-fade-in-left">
             <CardHeader>
-              <CardTitle className="text-2xl">Envíanos un mensaje</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-xl sm:text-2xl">Envíanos un mensaje</CardTitle>
+              <CardDescription className="text-sm sm:text-base">
                 Cuéntanos sobre tu proyecto y te responderemos en menos de 24 horas
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <CardContent className="space-y-4 sm:space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <Input 
                     placeholder="Tu nombre" 
@@ -47,58 +47,58 @@ const Contact = () => {
               />
               <Textarea 
                 placeholder="Cuéntanos sobre tu proyecto..."
-                rows={6}
-                className="bg-background/50 border-border/50 focus:border-primary resize-none"
+                rows={5}
+                className="bg-background/50 border-border/50 focus:border-primary resize-none text-sm sm:text-base"
               />
-              <Button className="w-full gradient-primary shadow-glow">
+              <Button className="w-full gradient-primary shadow-glow text-sm sm:text-base">
                 Enviar Mensaje
               </Button>
             </CardContent>
           </Card>
           
           {/* Información de contacto */}
-          <div className="space-y-8 opacity-0 animate-fade-in-right">
+          <div className="space-y-6 sm:space-y-8 opacity-0 animate-fade-in-right">
             <Card className="gradient-card border-border/50">
-              <CardContent className="p-6 flex items-center space-x-4">
-                <div className="text-2xl">📧</div>
+              <CardContent className="p-4 sm:p-6 flex items-center space-x-3 sm:space-x-4">
+                <div className="text-xl sm:text-2xl">📧</div>
                 <div>
-                  <h3 className="font-semibold">Email</h3>
-                  <p className="text-foreground/70">hola@creativestudio.com</p>
+                  <h3 className="text-sm sm:text-base font-semibold">Email</h3>
+                  <p className="text-xs sm:text-sm text-foreground/70">hola@creativestudio.com</p>
                 </div>
               </CardContent>
             </Card>
             
             <Card className="gradient-card border-border/50">
-              <CardContent className="p-6 flex items-center space-x-4">
-                <div className="text-2xl">📱</div>
+              <CardContent className="p-4 sm:p-6 flex items-center space-x-3 sm:space-x-4">
+                <div className="text-xl sm:text-2xl">📱</div>
                 <div>
-                  <h3 className="font-semibold">Teléfono</h3>
-                  <p className="text-foreground/70">+1 (555) 123-4567</p>
+                  <h3 className="text-sm sm:text-base font-semibold">Teléfono</h3>
+                  <p className="text-xs sm:text-sm text-foreground/70">+1 (555) 123-4567</p>
                 </div>
               </CardContent>
             </Card>
             
             <Card className="gradient-card border-border/50">
-              <CardContent className="p-6 flex items-center space-x-4">
-                <div className="text-2xl">📍</div>
+              <CardContent className="p-4 sm:p-6 flex items-center space-x-3 sm:space-x-4">
+                <div className="text-xl sm:text-2xl">📍</div>
                 <div>
-                  <h3 className="font-semibold">Ubicación</h3>
-                  <p className="text-foreground/70">Madrid, España</p>
+                  <h3 className="text-sm sm:text-base font-semibold">Ubicación</h3>
+                  <p className="text-xs sm:text-sm text-foreground/70">Madrid, España</p>
                 </div>
               </CardContent>
             </Card>
             
             <Card className="gradient-card border-border/50">
-              <CardContent className="p-6">
-                <h3 className="font-semibold mb-3">Síguenos</h3>
-                <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="border-primary/30 hover:bg-primary/10">
+              <CardContent className="p-4 sm:p-6">
+                <h3 className="text-sm sm:text-base font-semibold mb-3">Síguenos</h3>
+                <div className="flex flex-wrap gap-2 sm:gap-4">
+                  <Button variant="outline" size="sm" className="border-primary/30 hover:bg-primary/10 text-xs sm:text-sm">
                     LinkedIn
                   </Button>
-                  <Button variant="outline" size="sm" className="border-primary/30 hover:bg-primary/10">
+                  <Button variant="outline" size="sm" className="border-primary/30 hover:bg-primary/10 text-xs sm:text-sm">
                     Twitter
                   </Button>
-                  <Button variant="outline" size="sm" className="border-primary/30 hover:bg-primary/10">
+                  <Button variant="outline" size="sm" className="border-primary/30 hover:bg-primary/10 text-xs sm:text-sm">
                     Instagram
                   </Button>
                 </div>

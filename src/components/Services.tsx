@@ -25,18 +25,18 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicios" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in-up">
+    <section id="servicios" className="py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 opacity-0 animate-fade-in-up">
             Nuestros <span className="gradient-text">Servicios</span>
           </h2>
-          <p className="text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up">
+          <p className="text-base sm:text-lg lg:text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-up px-4">
             Ofrecemos soluciones integrales para llevar tu negocio al siguiente nivel digital
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {services.map((service, index) => (
             <Card 
               key={index} 
